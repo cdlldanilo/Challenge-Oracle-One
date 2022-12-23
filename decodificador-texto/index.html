@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="logo_principal">
+  <h1 class="logo">a</h1>
+  </header>
+  <main class="container-general">
+    <section class="secao_principal">
+      <textarea name="text" cols="30" rows="10" class="textarea_principal" id="input-area">Digite seu texto</textarea>
+      <section class="secao_informativo">
+        <span class="iconify icon_informacao" data-icon="ion:information-circle"></span>
+        <p class="informativo">Apenas letras minúsculas e sem acentos</p>
+      </section>
+      <section class="secao_criptografa_descriptografa">
+        <button class="botao_criptografa" id="button-encrypt">
+          Criptografar
+        </button>
+        <button class="botao_descriptografa" id="button-decrypt">
+          Descriptografar
+        </button>
+      </section>
+    </section>
+    <section class="secao-lateral_borda">
+      <div class="div_lateral" id="output-area">
+        <div class="div_boneco" id="hide-area">
+          <img class="imagem_pessoa" src="img/boneco.png" alt="pessoa sentada com uma lupa olhando para um diamante">
+        </div>
+        <h2 class="titulo_direito" id="hide-area2">
+          Nenhuma mensagem encontrada
+        </h2>
+        <p class="texto_formatado_informativo" id="output-area-text">
+          Digite um texto que você queira criptografar ou descriptografar.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer> 
+<script src="js/script.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>

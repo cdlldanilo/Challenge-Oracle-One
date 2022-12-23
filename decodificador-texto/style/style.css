@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F3F5FC;
+  font-family: 'Inter', sans-serif;
+}
+
+.secao_principal{
+  text-align: center;
+}
+
+.logo_principal {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: slip;
+}
+
+.logo {
+  color:#3709eb;
+  margin: 0.2rem;
+  font-size: 5rem;
+}
+
+.textarea_principal {
+  width: 330px;
+  height: 328px;
+  margin-top: 5rem;
+  resize: none;
+  color: #0A3871;
+  font-size: 2rem;
+  background: none;
+  font-weight: 200px;
+  border: none;
+}
+
+.secao_informativo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.icon_informacao {
+  font-size: 1.4rem;
+  color: #0A3871;
+}
+
+.informativo {
+  font-size: 0.8rem;
+  color: #343A40;
+}
+
+.secao_criptografa_descriptografa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.botao_criptografa,
+.botao_descriptografa {
+  margin: 0.5rem;
+  height: 4rem;
+  width: 20rem;
+  border-radius: 1rem;
+  font-weight: 100px;  
+  
+}
+
+.botao_criptografa {
+  border: none;
+  background: #0A3871;;
+  background-position: right bottom;
+  opacity: 1;	
+  cursor: pointer;
+  background-size: 200% 100%;
+  color: #fff;
+}
+
+.botao_criptografa:hover {
+  color: #D8DFE8;
+}
+
+.botao_descriptografa {
+  
+  border: 1px solid #0A3871;
+  
+  background-position: right bottom;
+  transition: all 300ms ease-out;
+  background-size: 200% 100%;
+  color: #0A3871;
+  background: #D8DFE8;
+cursor: pointer;  
+  
+}
+
+.botao_descriptografa:hover {
+  
+  color: #fff;
+}
+
+.div_lateral {
+  margin: 2rem;
+  padding: 1rem;
+  background: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  color: #343A40;
+}
+
+.titulo_direito {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 400px;
+}
+
+.div_boneco {
+  display: none;
+}
+
+/*Responsividade para tablets*/
+@media (min-width: 482px) and (max-width: 767px) {
+
+  .secao_principal {
+    text-align: left;
+  }
+
+  .textarea_principal {
+    width: 440px;
+    height: 400px;
+    margin-left: 1rem;
+  }
+}
+
+/*Responsividade para telas pequenas, laptops*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .secao_principal {
+    text-align: left;
+  }
+
+  .textarea_principal {
+    width: 700px;
+    height: 400px;
+    margin-left: 1rem;
+  }
+}
+
+/*Responsividade para telas grandes */
+@media (min-width: 1025px) {
+
+  .div_boneco {
+    display: inline;
+    text-align: center;
+  }
+
+  .imagem_pessoa {
+    width: 14rem;
+  }
+
+  .div_lateral {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secao_principal {
+    text-align: left;
+  }
+
+  .textarea_principal {
+    width: 700px;
+    height: 400px;
+    margin-left: 4rem;
+  }
+
+  .container-general {
+    display: flex;
+  }
+
+  .secao_informativo {
+    margin-left: 4rem;
+  }
+
+  .botao_criptografa,
+  .botao_descriptografa {
+    margin: 1rem;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 1rem;
+    font-weight: 100px;
+  } 
+}
+
+.secao-lateral {
+  text-align: center;
+}
+
+.texto_formatado_informativo {
+  text-align: justify;
+}
+
+.secao-lateral_borda {
+  background-color: #faf2f2;
+}
+
+

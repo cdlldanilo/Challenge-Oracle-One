@@ -1,15 +1,15 @@
 ### Desafio da formação Back End Java: 
 
-_Criando seu próprio conversor de moeda e outro conversor extra._
+_Criando seu próprio conversor de moeda._
 
-- [ ] Converter de Reais a Dólar
-- [ ] Converter de Reais a Euro
-- [ ] Converter de Reais a Libras Esterlinas
-- [ ] Converter de Reais a Peso argentino
-- [ ] Converter de Reais a Peso Chileno
-- [ ] Converter de Dólar a Reais
-- [ ] Converter de Euro a Reais
-- [ ] Converter de Libras Esterlinas a Reais
-- [ ] Converter de Peso argentino a  Reais
-- [ ] Converter de Peso Chileno a Reais
-- [ ] Outro conversor extra
+- [ X ] Converter de Reais a Dólar
+- [ X ] Converter de Reais a Euro
+- [ X ] Converter de Reais a Libras Esterlinas
+- [ X ] Converter de Reais a Peso argentino
+- [ X ] Converter de Reais a Peso Chileno
+- [ X ] Converter de Dólar a Reais
+- [ X ] Converter de Euro a Reais
+- [ X ] Converter de Libras Esterlinas a Reais
+- [ X ] Converter de Peso argentino a  Reais
+- [ X ] Converter de Peso Chileno a Reais
+
